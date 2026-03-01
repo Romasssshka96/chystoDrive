@@ -544,7 +544,7 @@ footer{
 
 .footerWrap{
     position: relative;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -580,12 +580,12 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    margin-top: 55px;
+    margin-top: 30px;
 }
 
 .footerSocPic{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
 }
 
@@ -610,7 +610,7 @@ footer{
 .linkWrapFooter{
     display: flex;
     flex-wrap: wrap;
-    width: 90px;
+    width: 100px;
 }
 
 
