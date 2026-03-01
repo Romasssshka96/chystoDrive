@@ -584,9 +584,9 @@ footer{
 }
 
 .footerSocPic{
-    width: 30px;
-    height: 30px;
-    margin-right: 7px;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
 }
 
 .phoneWrapFooter{
@@ -610,7 +610,7 @@ footer{
 .linkWrapFooter{
     display: flex;
     flex-wrap: wrap;
-    width: 75px;
+    width: 90px;
 }
 
 
