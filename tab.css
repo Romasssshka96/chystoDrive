@@ -340,10 +340,11 @@
 
     .footerTitle{
         display: block;
+    
     }
     
     .footerAgitation{
-
+        text-align: left;
     }
 
     .logoFooter{
