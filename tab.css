@@ -1,0 +1,392 @@
+@media (min-width: 1024px) {
+    
+    header{
+    }
+    
+    .contentWraper{
+
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+
+    }
+    
+    .emblem{
+        width: 300px;
+    
+    }
+    
+    .logo{
+        top: -85px;
+        position: absolute;
+        right: 140px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .titleWrap{
+        position: absolute;
+        top: -15px;
+    }
+    
+    .chysto{
+        font-size: 30px;
+    }
+    
+    .drive{
+        font-size: 30px;
+    }
+    
+    .rightSideHeader{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    .phoneWrap{
+        display: flex;
+        align-items: center;
+        width: 210px;
+    }
+    
+    .phoneImg{
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .phoneNumber{
+        display: block;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-size: 25px;
+    }
+    
+    .contact{
+        width: 270px;
+        height: 70px;
+        background: #ff03ff;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    /*----------------------------------------------------------------------*/
+    
+    
+    section{
+        min-height: 500px;
+    }
+    
+    .contactUsWraper{
+        width: 80%;
+    }
+    
+    .leftContent{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    h1{   
+        margin-top: 50px;
+        text-align: left;
+    }
+    
+    .contactText{
+        text-align: left;
+    }
+    
+    .contactButtonsBlock {
+        width: 400px;
+    }
+    
+    .contactButton {
+        width: 400px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    
+    
+    .socialButtons h3{
+        font-size: 15px;
+    }
+    
+    .socPic{
+        width: 50px;
+        height: 50px;
+        margin: 0;
+    }
+    
+    .phoneNumberMobile{
+        display: none;
+    }
+    
+    /* Контейнер иконок */
+    .socialButtons {
+    }
+    
+    /* Когда активно */
+    .contactButtonsBlock.active .socialButtons {
+
+    }
+    
+    /* Иконки */
+    .socialButtons img {
+    }
+    
+    .socialButtons img:hover {
+    }
+    
+    
+    .rightContent{
+        display: block;
+
+    }
+    
+    .workProces {
+        display: block;
+
+    }
+    
+    /*----------------------------------------------------------------------*/
+    .title{
+        font-size: 30px;
+    }
+
+      .cardSection{
+        width: 80%;
+    }
+    
+    .cardWrapper{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    
+    .card {
+        width: 350px;
+        margin: 0;
+    }
+    
+    /* Картинка */
+    .card img {
+
+    }
+    
+    /* Заголовок */
+    .card h3 {
+        font-size: 20px;
+    }
+    
+    /* Полоска под заголовком */
+    .card h3::after {
+
+    }
+    
+    /* При наведении полоска удлиняется */
+    .card:hover h3::after {
+        width: 300px;
+    }
+    
+    /* Блок который скрываем */
+    .card h4,
+    .card ul {
+
+    }
+    
+    .cardContent h4 {
+
+    }
+    
+    .cardContent {
+
+    }
+    
+    .card.active .cardContent {
+      
+    }
+    
+    .cardContent ul {
+
+    }
+    
+    .cardContent ul li {
+        font-size: 15px;
+    }
+    
+    .cardContent ul li::before {
+
+    }
+    
+    .card.active .cardContent ul li {
+
+    }
+    
+    .card h4{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    
+    .divider {
+
+      }
+      
+
+      
+      
+      .divider::before {
+
+      }
+      
+      .divider::after {
+
+      }
+    
+
+    
+    /*----------------------------------------------------------------------*/
+    
+    .whyUs{
+        width: 80%;
+
+    }
+    
+    .whyUsCards{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 120px;
+        margin-bottom: 0;
+    }
+    
+    .whyUsCard{
+        width: 200px;
+    }
+    
+    .whyUsCardIcon{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .whyUsCardIcon:hover  {
+    
+    }
+    
+    .whyUsCard h3 {
+        width: 300px;
+        font-size: 20px;
+    }
+    
+    /*----------------------------------------------------------------------*/
+    
+    .coments{
+
+    }
+    
+    .comentsInterier {
+
+        display: block;
+    
+    }
+    
+    .comentsWrap{
+        width: 80%;
+        margin-top: 100px;
+    }
+    
+    .comentsContent{
+        width: 50%;
+        height: 500px;
+    }
+    
+    .comentIcon1{
+        top: 220px;
+        left: 300px;
+        width: 400px;
+        height: 200px;
+    }
+    
+    .comentIcon2{
+        top: 10px;
+        left: 100px;
+        width: 400px;
+        height: 200px;
+    }
+    
+    /*----------------------------------------------------------------------*/
+    
+    footer{
+
+    }
+    
+    .footerWrap{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerTitle{
+        display: block;
+    }
+    
+    .footerAgitation{
+
+    }
+
+    .logoFooter{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .socialFooter{
+        height: 100%;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .phoneWrapFooter{
+        margin-bottom: 50px;
+    }
+
+    .footerSocPic{
+        width: 35px;
+        height: 35px;
+        margin-right: 0;
+        margin-left: 7px;
+    }
+
+    .phoneImgFooter{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .phoneNumberFooter{
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-size: 25px;
+    }
+    
+    .linkWrapFooter{
+        display: flex;
+        flex-wrap: wrap;
+        width: 255px;
+    }
+    
+}
