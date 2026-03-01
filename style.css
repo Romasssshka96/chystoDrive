@@ -140,20 +140,20 @@ section{
 h1{   
     color: rgb(70, 70, 248);
     font-weight: 700;
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 50px;
 }
 
 .contactText{
     color: black;
     font-weight: 400;
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 20px;
+    margin-top: 30px;
 }
 
 .contactButtonsBlock {
-    width: 700px;
-    margin: 70px;
+    width: 500px;
+    margin-top: 70px;
     text-align: center;
 }
 
@@ -163,9 +163,10 @@ h1{
     align-items: center;
     background: linear-gradient(344deg, rgba(255, 3, 255, 1) 0%, rgba(46, 49, 97, 1) 49%);
     height: 100px;
+    width: 500px;
     color: white;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 50px;
     padding: 15px;
     cursor: pointer;
@@ -180,13 +181,13 @@ h1{
 
 .socialButtons h3{
     color: rgb(70, 70, 248);
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .socPic{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 
 .contactButton:hover {
@@ -228,7 +229,7 @@ h1{
 }
 
 .workProces {
-    width: 50%;
+    width: 40%;
     position: absolute;
     right: 0;
     display: block;
