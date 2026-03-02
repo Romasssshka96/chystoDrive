@@ -1,14 +1,15 @@
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     
     header{
         margin: 0;
     }
     
     .contentWraper{
+
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 90%;
+        width: 80%;
 
     }
     
@@ -18,24 +19,24 @@
     }
     
     .logo{
-        top: -35px;
+        top: -50px;
         position: absolute;
         right: 140px;
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
     
     .titleWrap{
         position: absolute;
-        top: 18px;
+        top: 23px;
     }
     
     .chysto{
-        font-size: 25px;
+        font-size: 30px;
     }
     
     .drive{
-        font-size: 25px;
+        font-size: 30px;
     }
     
     .rightSideHeader{
@@ -48,7 +49,7 @@
     .phoneWrap{
         display: flex;
         align-items: center;
-        width: 180px;
+        width: 210px;
     }
     
     .phoneImg{
@@ -62,7 +63,7 @@
         cursor: pointer;
         color: rgb(255, 255, 255);
         font-weight: 600;
-        font-size: 20px;
+        font-size: 25px;
     }
     
     .contact{
@@ -82,39 +83,36 @@
     
     
     section{
-
-        min-height: 400px;
+        min-height: 500px;
     }
     
     .contactUsWraper{
-        margin: 0 auto;
         width: 80%;
     }
     
     .leftContent{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        align-items: start;
+        width: 50%;
     }
     
     h1{   
-        font-size: 25px;
         margin-top: 50px;
         text-align: left;
     }
     
     .contactText{
-        font-size: 16px;
         text-align: left;
     }
     
     .contactButtonsBlock {
-        width: 300px;
+        width: 400px;
     }
     
     .contactButton {
-        width: 300px;
-        font-size: 15px;
+        width: 400px;
+        font-size: 20px;
         margin-top: 50px;
     }
     
@@ -122,20 +120,15 @@
     .socialButtons h3{
         font-size: 15px;
     }
-
-    .socialButtons{
-        width: 300px;
+    
+    .socPic{
+        width: 50px;
+        height: 50px;
+        margin: 0;
     }
 
     .linkWrap{
-        width: 300px;
-        margin-bottom: 50px;
-    }
-    
-    .socPic{
-        width: 40px;
-        height: 40px;
-        margin: 0;
+        width: 400px;
     }
     
     .phoneNumberMobile{
@@ -144,6 +137,7 @@
     
     /* Контейнер иконок */
     .socialButtons {
+        width: 400px;
     }
     
     /* Когда активно */
@@ -160,17 +154,18 @@
     
     
     .rightContent{
+        display: block;
 
     }
     
     .workProces {
-
+        display: block;
 
     }
     
     /*----------------------------------------------------------------------*/
     .title{
-        font-size: 22px;
+        font-size: 30px;
     }
 
       .cardSection{
@@ -178,7 +173,7 @@
     }
     
     .cardWrapper{
-        margin-top: 50px;
+        margin-top: 100px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -186,18 +181,18 @@
     }
     
     .card {
-        width: 250px;
+        width: 350px;
         margin: 0;
     }
     
     /* Картинка */
     .card img {
-        height: 150px;
+
     }
     
     /* Заголовок */
     .card h3 {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     /* Полоска под заголовком */
@@ -207,7 +202,7 @@
     
     /* При наведении полоска удлиняется */
     .card:hover h3::after {
-        width: 200px;
+        width: 300px;
     }
     
     /* Блок который скрываем */
@@ -245,7 +240,8 @@
     }
     
     .card h4{
-        font-size: 16px;
+        font-size: 20px;
+        font-weight: 600;
     }
     
     
@@ -276,8 +272,8 @@
     .whyUsCards{
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        margin-top: 50px;
+        justify-content: space-between;
+        margin-top: 120px;
         margin-bottom: 0;
     }
     
@@ -286,8 +282,8 @@
     }
     
     .whyUsCardIcon{
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
     }
     
     .whyUsCardIcon:hover  {
@@ -296,7 +292,7 @@
     
     .whyUsCard h3 {
         width: 300px;
-        font-size: 16px;
+        font-size: 20px;
     }
     
     /*----------------------------------------------------------------------*/
@@ -307,23 +303,23 @@
     
     .comentsInterier {
 
-        display: none;
+        display: block;
     
     }
     
     .comentsWrap{
         width: 80%;
-        margin-top: 50px;
+        margin-top: 100px;
     }
     
     .comentsContent{
-        width: 80%;
+        width: 50%;
         height: 500px;
     }
     
     .comentIcon1{
         top: 220px;
-        left: 350px;
+        left: 300px;
         width: 400px;
         height: 200px;
     }
@@ -342,7 +338,7 @@
     }
     
     .footerWrap{
-        width: 90%;
+        width: 80%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -351,28 +347,25 @@
 
     .footerTitle{
         display: block;
-        font-size: 20px;
     
     }
     
     .footerAgitation{
         text-align: left;
-        font-size: 20px;
     }
 
     .logoFooter{
         display: block;
-        width: 90px;
-        height: 90px;
+        width: 150px;
+        height: 150px;
     }
     
     .socialFooter{
         height: 100%;
-        width: 285px;
+        width: 350px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: end;
         margin: 0;
     }
     
@@ -396,7 +389,7 @@
         cursor: pointer;
         color: rgb(255, 255, 255);
         font-weight: 600;
-        font-size: 20px;
+        font-size: 25px;
     }
     
     .linkWrapFooter{
@@ -404,60 +397,70 @@
         flex-wrap: wrap;
         width: 285px;
     }
-    
+
+
 
 
 
 
 
     .discountTimer {
-        width: 230px;
-        top: auto;
-        bottom: 20px;
-        right: 20px;
-        padding: 20px;
-        border-radius: 16px;
-    }
+    position: fixed;
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    background:linear-gradient(344deg, rgba(255, 3, 255, 1) 0%, rgba(46, 49, 97, 1) 49%);
+    color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    font-family: Arial, sans-serif;
+    z-index: 9999;
+    width: 300px;
+}
+
+.timerTitle {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeBox {
+    text-align: center;
+}
+
+.timeBox span {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.timeBox small {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-    .timerTitle {
-        font-size: 12px;
-        margin-bottom: 15px;
-
-    }
-    
-    .timer {
-
-    }
-    
-    .timeBox {
-
-    }
-    
-    .timeBox span {
-        font-size: 18px;
-    }
-    
-    .timeBox small {
-        font-size: 11px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
